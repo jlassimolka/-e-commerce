@@ -1,0 +1,114 @@
+/* Reset some default styles */
+body, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add basic styles to the container */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Style the product item */
+.col-md-3 {
+    width: 25%;
+    padding: 10px;
+}
+
+.item {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.body {
+    margin-top: 15px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+.px-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+span {
+    font-size: 18px;
+    color: #d9534f;
+}
+/* Add a border and rounded corners to the image */
+.item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Darken the image border and slightly scale up on hover */
+.item img:hover {
+    border-color: #888;
+    transform: scale(1.05);
+}
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    max-height: 200px; /* Adjust the maximum image height as needed */
+    object-fit: cover;
+}
+
